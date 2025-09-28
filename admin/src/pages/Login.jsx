@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useContext, useState } from 'react'
+import React, { useContext, useState , useNavigate} from 'react'
 import { DoctorContext } from '../context/DoctorContext'
 import { AdminContext } from '../context/AdminContext'
 import { toast } from 'react-toastify'
@@ -8,6 +8,8 @@ const Login = () => {
 
   const [state, setState] = useState('Admin')
 
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
@@ -15,6 +17,7 @@ const Login = () => {
 
   const { setDToken } = useContext(DoctorContext)
   const { setAToken } = useContext(AdminContext)
+
 
   const onSubmitHandler = async (event) => {
     event.preventDefault();
@@ -25,6 +28,7 @@ const Login = () => {
       if (data.success) {
         setAToken(data.token)
         localStorage.setItem('aToken', data.token)
+        navigate('/admin-dashboard');
       } else {
         toast.error(data.message)
       }
@@ -35,6 +39,7 @@ const Login = () => {
       if (data.success) {
         setDToken(data.token)
         localStorage.setItem('dToken', data.token)
+        navigate('/doctor-dashboard');
       } else {
         toast.error(data.message)
       }
