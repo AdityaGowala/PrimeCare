@@ -58,25 +58,22 @@ PrimeCare is a full-featured web application for managing doctor appointments, b
 
 ## 🖼️ Screenshots
 
-### Frontend / Doctor / Patient
+### Landing Page
 
-| Login | Patient Dashboard | Doctor Dashboard |
-|-------|-----------------|----------------|
-| ![1](./screenshots/1.png) | ![2](./screenshots/2.png) | ![3](./screenshots/3.png) |
+| Banner | Top Doctors | Select Doctor |
+|--------|-------------|---------------|
+| ![1](./ScreenShots/1.png) | ![2](./ScreenShots/3.png) | ![3](./ScreenShots/5.png) |
 
-### Admin Dashboard
+### User Login & Admin Login
 
-| Admin Login | Admin Dashboard | Doctors List |
-|-------------|----------------|-------------|
-| ![4](./screenshots/4.png) | ![5](./screenshots/5.png) | ![6](./screenshots/6.png) |
+| User Login | Admin Login |
+|-------------|----------------|
+| ![4](./ScreenShots/5.5.png) | ![5](./ScreenShots/5.5.png) |
 
-### Appointments & Profiles
+### Admin Dashboard & Doctor Dashboard
 
-| Doctor Appointments | Patient Appointment | Doctor Profile | Admin Add Doctor |
-|-------------------|------------------|---------------|----------------|
-| ![7](./screenshots/7.png) | ![8](./screenshots/8.png) | ![3](./screenshots/3.png) | ![4](./screenshots/4.png) |
+| Doctor Dashboard | Doctor Profile |
+|-----------------|----------------|
+| ![6](./ScreenShots/7.png) | ![7](./ScreenShots/6.png) |
 
-> Replace reused screenshots (3.png, 4.png) with actual images if available.
-
----
 
