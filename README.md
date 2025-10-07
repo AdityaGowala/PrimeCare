@@ -4,8 +4,8 @@ PrimeCare is a full-featured web application for managing doctor appointments, b
 
 ---
 
-- **Frontend (Patient/Doctor):** [https://primecare-frontend.onrender.com](https://primecare-frontend.onrender.com)  
-- **Admin Dashboard:** [https://primecare-admin.onrender.com](https://primecare-admin.onrender.com)  
+- **Frontend (Patient):** [https://primecare-frontend.onrender.com](https://primecare-frontend-u848.onrender.com)  
+- **Admin Dashboard:** [https://primecare-admin.onrender.com](https://primecare-admin-pkpn.onrender.com)  
 
 
 ## 🌟 Features
