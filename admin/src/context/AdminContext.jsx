@@ -7,7 +7,7 @@ export const AdminContext = createContext()
 
 const AdminContextProvider = (props) => {
 
-    const backendUrl = "https://primecare-a0ik.onrender.com"
+    const backendUrl = "https://primecare-backend-pzqh.onrender.com"
 
     const [aToken, setAToken] = useState(localStorage.getItem('aToken') ? localStorage.getItem('aToken') : '')
 
