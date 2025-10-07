@@ -14,7 +14,7 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const backendUrl = "https://primecare-a0ik.onrender.com"
+  const backendUrl = "https://primecare-backend-pzqh.onrender.com"
 
   const { setDToken } = useContext(DoctorContext)
   const { setAToken } = useContext(AdminContext)
